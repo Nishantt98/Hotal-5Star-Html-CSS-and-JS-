@@ -1,0 +1,826 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Riot&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header li {
+    padding-left: 80px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+}
+
+header li:hover {
+    color: orangered;
+}
+
+header h1:hover {
+    color: orangered;
+}
+
+header button:hover {
+    background-color: orangered;
+    filter: 0 0 10px orangered;
+    border: 1px solid orangered;
+    transform: scale(1.03);
+}
+
+header li:nth-child(1) {
+    color: orangered;
+}
+
+header button {
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    color: white;
+    background: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.main {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+    transition: ease-in-out;
+    transition: all .3s ease-in-out;
+    overflow: hidden;
+}
+
+
+.Slide {
+    position: absolute;
+    object-fit: cover;
+    z-index: -10;
+    filter: blur(3px);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 400px;
+}
+
+.nav .left-btn {
+    position: relative;
+    left: 2%;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid rgb(150, 148, 148);
+    background-color: transparent;
+}
+
+.nav .left-btn:hover {
+    box-shadow: 0 0 10px rgb(225, 92, 26);
+    border: solid orangered;
+}
+
+.nav i:hover {
+    color: orangered;
+}
+
+.nav .left-btn:active {
+    background-color: rgb(170, 168, 168);
+}
+
+.nav .right-btn {
+    position: relative;
+    right: 2%;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid rgb(150, 148, 148);
+    background-color: transparent;
+}
+
+.nav .right-btn:hover {
+    box-shadow: 0 0 10px rgb(225, 92, 26);
+    border: solid orangered;
+}
+
+.nav i:hover {
+    color: orangered;
+}
+
+.nav .right-btn:active {
+    background-color: rgb(170, 168, 168);
+}
+
+.nav i {
+    font-size: 24px;
+    color: rgb(137, 134, 134);
+}
+
+
+.main div {
+    margin-left: 15%;
+    z-index: 10px;
+    margin-top: 10%;
+}
+
+
+
+.main button {
+    padding: 10px 40px 10px 40px;
+    border: hidden;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 50%;
+    filter: drop-shadow(0 0 1px black)
+}
+
+.main span {
+    padding-left: 10px;
+    color: orangered;
+}
+
+.main div h1 {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    filter: drop-shadow(0 0 2px black)
+}
+
+
+/* Hotal Details  */
+
+
+.hotaldetails {
+    display: flex;
+    height: 770px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.hotaldetails .room {
+    height: 500px;
+    width: 70%;
+    margin-top: 8%;
+    margin-left: 10%;
+    position: relative;
+    overflow: hidden;
+}
+
+.hotaldetails img {
+    height: 500px;
+    margin-top: 8%;
+    margin-left: 10%;
+    position: relative;
+}
+
+.hotaldetails:hover .img-pro {
+    box-shadow: 0 0 20px rgb(197, 193, 193);
+}
+
+.hotaldetails .right-icon:hover {
+    transform: scale(1.2);
+}
+
+.hotaldetails .hotal-info {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 9%;
+    margin-left: 3%;
+}
+
+.hotal-info h4 {
+    font-family: "Montserrat", sans-serif;
+    border-left: 2px solid orangered;
+    padding-left: 5px;
+    color: orangered;
+}
+
+.hotal-info h1 {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 3%;
+    font-size: 38px;
+    font-weight: 750;
+    line-height: 47px;
+    padding-bottom: 6%;
+}
+
+.hotal-info h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    padding-right: 100px;
+    color: orangered;
+}
+
+.hotal-info div p {
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    font-weight: 550;
+    margin-top: 4%;
+    width: 94%;
+}
+
+.hotal-info h2 {
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    padding-top: 8%;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.hotal-info div {
+    background-color: rgb(230, 227, 227);
+    width: 90%;
+    height: 320px;
+    padding: 30px 10px 10% 25px;
+    border-radius: 6px;
+}
+
+.hotal-size-detail {
+    width: 65%;
+    height: 65%;
+    margin-top: 8%;
+    margin-right: 4%;
+    box-shadow: 0 0 20px rgb(171, 166, 166);
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 11px;
+}
+
+
+.hotal-area h1 {
+    margin-top: 27px;
+    padding-left: 10px;
+}
+
+.hotal-area p {
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 3px;
+    font-weight: 500;
+    color: rgb(156, 155, 155);
+}
+
+
+.hotal-area img {
+    height: 50px;
+    margin-bottom: 13%;
+    padding-right: 8%;
+}
+
+.hotal-size-detail .hotal-area {
+    display: flex;
+}
+
+.bg-img {
+    height: 1100px;
+    background-image: url(image/video-bg.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7%;
+    position: relative;
+}
+
+.bg-img h4 {
+    color: orangered;
+    border-left: 4px solid orangered;
+    padding-left: 6px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.bg-img p {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    padding-top: 40px;
+}
+
+
+.bg-img .play-icon {
+    font-size: 25px;
+    color: orangered;
+    background-color: white;
+    padding: 14px 0 0 18px;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: 10px solid orangered;
+}
+
+
+.bg-img .video {
+    border-radius: 10px;
+    margin-top: 90px;
+    filter: blur(1px);
+}
+
+.bg-img .boxs {
+    display: flex;
+    column-gap: 200px;
+}
+
+.bg-img .boxs div {
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(246, 213, 201);
+    padding: 10px 20px 20px 10px;
+    border-radius: 10px;
+    margin-top: 7%;
+}
+
+
+.bg-img .boxs h1 {
+    color: rgb(248, 70, 6);
+    font-size: 40px;
+}
+
+.bg-img .boxs ul {
+    list-style: none;
+    margin-top: 5px;
+    margin-left: 14px;
+    line-height: 20px;
+}
+
+.bg-img .boxs div ul li {
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.bg-img .boxs h2 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    left: 40px;
+    top: -30px;
+    background-color: orangered;
+}
+
+.best-deal {
+    height: 200px;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.best-deal div {
+    margin-left: 5%;
+}
+
+.best-deal h4 {
+    color: orangered;
+    border-left: 3px solid orangered;
+    padding-left: 4px;
+    margin-left: 14%;
+}
+
+.best-deal h1 {
+    font-size: 38px;
+    font-weight: 800;
+    margin-top: 35px;
+    margin-left: 14%;
+    width: 400px;
+}
+
+.best-deal .buttons {
+    margin-right: 7%;
+    margin-top: 6%;
+}
+
+.best-deal button {
+    height: 45px;
+    width: 150px;
+    margin-left: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(36, 36, 36);
+    background-color: black;
+    border-radius: 5px;
+}
+
+.best-deal button:nth-child(1) {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    box-shadow: 0 0 10px rgb(235, 165, 140);
+    background-color: orangered;
+    border-radius: 5px;
+}
+
+.best-deal button:hover {
+    background-color: orangered;
+    box-shadow: 0 0 10px rgb(235, 165, 140);
+}
+
+.best-deal button:nth-child(1):hover {
+    background-color: black;
+    box-shadow: 0 0 10px rgb(36, 36, 36);
+}
+
+.hotal-room-size {
+    height: 700px;
+    width: 100%;
+    margin-top: -100px;
+}
+
+.hotal-room-size {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hotal-room-size .left-box {
+    height: 410px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(171, 166, 166);
+    font-family: "Montserrat", sans-serif;
+}
+
+.hotal-room-size .left-box p {
+    color: rgb(124, 119, 119);
+    font-weight: 500;
+}
+
+.hotal-room-size .left-box h2 {
+    color: black;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+
+.hotal-room-size .left-box div {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hotal-room-size .deal-01 {
+    height: 400px;
+    margin-left: -10%;
+}
+
+.hotal-room-size .deal-01:hover {
+    box-shadow: 0 0 5px rgb(11, 8, 8);
+}
+
+.hotal-room-size .right-box {
+    height: 60%;
+    width: 20%;
+    margin-left: -210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: "Montserrat", sans-serif;
+}
+
+.hotal-room-size .right-box p {
+    width: 350px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(124, 119, 119);
+}
+
+.hotal-room-size .right-box button {
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    color: white;
+    background: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.hotal-room-size .right-box button:hover {
+    background-color: orangered;
+    filter: 0 0 10px orangered;
+    border: 1px solid orangered;
+    transform: scale(1.03);
+    box-shadow: 0 0 10px rgb(36, 36, 36);
+}
+
+.hotal-list {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.hotal-list .hotal-boxs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8%;
+    margin-right: 8%;
+}
+
+.hotal-list .properties {
+    text-align: center;
+}
+
+.hotal-list .properties h3 {
+    font-size: 16px;
+    color: orangered;
+}
+
+.hotal-list .properties p {
+    font-size: 38px;
+    color: black;
+    font-weight: 800;
+    margin-top: 25px;
+}
+
+.hotal-list .hotal-boxs {
+    display: flex;
+    margin-left: 10%;
+    height: 600px;
+}
+
+.hotal-list .img-pro {
+    border-radius: 10px;
+}
+
+.hotal-list .img-pro:hover {
+    box-shadow: 0 0 10px rgb(11, 8, 8);
+}
+
+.hotal-list .hotal-box div {
+    display: flex;
+    flex-direction: column;
+}
+
+.hotal-list ul {
+    display: flex;
+    list-style: none;
+    column-gap: 5px;
+}
+
+.hotal-list ul:first-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hotal-list ul .one {
+    background-color: rgb(238, 185, 165);
+    color: black;
+    font-weight: 500;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.hotal-list ul .two {
+    font-weight: 800;
+    font-size: 20px;
+    color: orangered;
+}
+
+.hotal-list p {
+    font-size: 17px;
+    font-weight: 800;
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+.hotal-list ul:nth-child(n+1) {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(90, 87, 87);
+    column-gap: 8%;
+}
+
+
+.hotal-list ul:last-child {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(90, 87, 87);
+
+}
+
+.hotal-list ul span:last-child {
+    font-weight: 700;
+    font-size: 15px;
+    color: black;
+}
+
+
+.hotal-list button {
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    color: white;
+    background: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 15%;
+    margin-left: 16%;
+    border: black;
+}
+
+.hotal-list button:hover {
+    background-color: orangered;
+    filter: 0 0 10px orangered;
+    border: 1px solid orangered;
+    transform: scale(1.03);
+    box-shadow: 0 0 10px rgb(36, 36, 36);
+}
+
+.map {
+    background: url(image/contact-bg.jpg);
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-top: 6%;
+    font-family: "Montserrat", sans-serif;
+}
+
+.map h3 {
+    color: orangered;
+    border-left: 4px solid orangered;
+    padding-left: 10px;
+    line-height: 15px;
+}
+
+.map p {
+    font-size: 38px;
+    margin-top: 30px;
+    font-weight: 800;
+    color: white;
+}
+
+.map .current-add {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+
+.map .online-contact {
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.map .online-contact div {
+    display: flex;
+    padding: 10px 10px 10px;
+    box-shadow: 0 0 10px rgb(185, 180, 180);
+    border-radius: 5px;
+}
+
+.map .online-contact img {
+    height: 35px;
+    margin: 10px 10px;
+}
+
+.map .online-contact .icon {
+    display: flex;
+    flex-direction: column;
+    box-shadow: none;
+    line-height: 10px;
+    margin-top: 4px;
+}
+
+.map .add {
+    width: 740px;
+    border-radius: 10px;
+}
+
+.map .fill-detail {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 0 5px rgb(235, 229, 229);
+    height: 670px;
+    width: 550px;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-left: 30px;
+    border: 1px solid rgb(210, 207, 207);
+}
+
+.map label {
+    padding-bottom: 40px;
+}
+
+.map h4 {
+    font-weight: 600;
+    color: rgb(100, 99, 99);
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.map input {
+    width: 480px;
+    height: 40px;
+    border-radius: 20px;
+    border: hidden;
+    background-color: rgb(233, 232, 232);
+}
+
+
+::placeholder {
+    padding-left: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: rgb(74, 71, 71);
+}
+
+.map:last-child ::placeholder {
+    padding-top: 10px;
+}
+
+.map textarea {
+    width: 477px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: hidden;
+    background-color: rgb(233, 232, 232);
+}
+
+.map .current-add button {
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    color: white;
+    background: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.map .current-add button:hover {
+    background-color: orangered;
+    filter: 0 0 10px orangered;
+    border: 1px solid orangered;
+    transform: scale(1.03);
+    box-shadow: 0 0 10px rgb(156, 153, 153);
+}
+
+footer {
+    background-color: rgb(5, 5, 5);
+    height: 100px;
+    text-align: center;
+    margin-top: 8%;
+}
+
+
+footer p {
+    padding-top: 45px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 10px;
+}

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Hotal 5Star</h1>
+            <ul>
+                <li>Home</li>
+                <li>Properties</li>
+                <li>Property Details</li>
+                <li>Contact Us</li>
+            </ul>
+            <button>Schedule a Visit</button>
+        </header>
+        <div class="main">
+            <img src="image/banner-01.jpg" class="Slide" alt="img1">
+               <img src="image/banner-02.jpg" class="Slide" alt="img2">
+            <img src="image/banner-03.jpg" class="Slide" alt="img3">
+
+        </div>
+        <div class="nav">
+            <button class="left-btn" onclick="goprev()">
+                <i class="fa-solid fa-angle-left"></i>
+            </button>
+            <button class="right-btn" onclick="gonext()">
+                <i class="fa-solid fa-angle-right"></i>
+            </button>
+        </div>
+        <div class="hotaldetails">
+            <img src="image/featured.jpg" class="img-pro" alt="">
+
+            <div class="hotal-info">
+                <h4>FEATURED</h4>
+                <h1>Best Appartment <br>& Sea View</h1>
+                <div>
+                    <h3>Best useful links ?</h3>
+                    <p>Lorem ipsum<b> dolor sit amet consectetur </b>adipisicing elit. Iste facilis ut debitis totam
+                        aut. Nam
+                        numquam corrupti consectetur officia
+                        facilis ut<b style="color: rgb(56, 132, 219);"> debitis totam aut. Nam numquam</b>corrupti
+                        consectetur officiaitaque?</p>
+                    <h2>How does this Work ?</h2>
+                    <h2>Why is Villa Agency the best ?</h2>
+                </div>
+            </div>
+            <div class="hotal-size-detail">
+                <div class="hotal-area">
+                    <img src="image/info-icon-01.png" class="right-icon" alt="">
+                    <div>
+                        <h1>250 m2</h1>
+                        <p>Total Flat Space</p>
+                    </div>
+                </div>
+                <div class="hotal-area">
+                    <img src="image/info-icon-02.png" class="right-icon" alt="">
+                    <div>
+                        <h1>Contract</h1>
+                        <p>Contract Reddy</p>
+                    </div>
+                </div>
+                <div class="hotal-area">
+                    <img src="image/info-icon-03.png" class="right-icon" alt="">
+                    <div>
+                        <h1>Payment</h1>
+                        <p>Payment process</p>
+                    </div>
+                </div>
+                <div class="hotal-area">
+                    <img src="image/info-icon-04.png" class="right-icon" alt="">
+                    <div>
+                        <h1>Safety</h1>
+                        <p>24/7 Under Control</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-img">
+            <h4>VIDEO VIEW</h4>
+            <p>Get Closer View & <br>Different Feeling</p>
+            <a href="https://youtu.be/z0n1aQ3IxWI?si=XulFm4WVzDlz-iU4"><img src="image/video-frame.jpg" class="video"
+                    alt=""><i class=" fa-solid play-icon fa-play"></i></a>
+            <div class="boxs">
+                <div>
+                    <h1>34</h1>
+                    <ul>
+                        <li>Buildings</li>
+                        <li>Finished Now</li>
+                    </ul>
+                    <h2></h2>
+                </div>
+                <div>
+                    <h1>12</h1>
+                    <ul>
+                        <li>Years</li>
+                        <li>Experience</li>
+                    </ul>
+                    <h2></h2>
+                </div>
+                <div>
+                    <h1>34</h1>
+                    <ul>
+                        <li>Awwards</li>
+                        <li>Won 2024</li>
+                    </ul>
+                    <h2></h2>
+                </div>
+            </div>
+        </div>
+        <div class="best-deal">
+            <div>
+                <h4>BEST DEAL</h4>
+                <h1>Find Your Best Deal <br>Right Now!</h1>
+            </div>
+            <div class="buttons">
+                <button>Appartment</button>
+                <button>Vila House</button>
+                <button>Penthouse</button>
+            </div>
+        </div>
+        <div class="hotal-room-size">
+            <div class="left-box">
+                <div>
+                    <p>Total Flat Space</p>
+                    <h2>185m2</h2>
+                </div>
+                <div>
+                    <p>Floor number &nbsp &nbsp &nbsp</p>
+                    <h2>26th</h2>
+                </div>
+                <div>
+                    <p>Number of Rooms &nbsp &nbsp &nbsp &nbsp</p>
+                    <h2>4</h2>
+                </div>
+                <div>
+                    <p>Parking Available &nbsp</p>
+                    <h2>YES</h2>
+                </div>
+                <div>
+                    <p>Payment Process</p>
+                    <h2>Bank</h2>
+                </div>
+            </div>
+            <img src="image/deal-01.jpg" class="deal-01" alt="">
+            <div class="right-box">
+                <h4>Extra Info About Property</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum optio odio, assumenda magnam sint
+                    culpa voluptas harum enim ea quas, minus consequatur velit aperiam adipisci. Temporibus repellendus
+                    ipsam quasi unde!</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, similique unde! Distinctio totam
+                    architecto impedit nostrum error in culpa ad incidunt neque! Libero dolorem ducimus facilis dolore
+                    iure assumenda aliquam?</p>
+                <button>Schedule a Visit</button>
+
+            </div>
+        </div>
+        <div class="hotal-list">
+            <div class="properties">
+                <h3>PROPERTIES</h3>
+                <P>We Provide The Best <br> Property You Like</P>
+            </div>
+            <div class="hotal-boxs">
+                <div class="hotal-box">
+                    <img src="image/property-01.jpg" class="img-pro" alt="">
+
+                    <div>
+                        <ul>
+                            <li class="one">Luxury Villa</li>
+                            <li class="two">$2.264.000</li>
+                        </ul>
+                        <p>18 New Street Miami, OR 97218</p>
+                        <ul>
+                            <li>Bedrooms: <span>8</span></li>
+                            <li>Bathrooms: <span>8</span></li>
+                        </ul>
+                        <ul>
+                            <li>Area: <span>545m2</span></li>
+                            <li>Floor: <span>3</span></li>
+                            <li>Parking: <span>6 spots</span></li>
+                        </ul>
+                        <button>Schedule a visit</button>
+                    </div>
+                </div>
+                <div class="hotal-box">
+                    <img src="image/property-02.jpg" class="img-pro" alt="">
+                    <div>
+                        <ul>
+                            <li class="one">Luxury Villa</li>
+                            <li class="two">$1.180.000</li>
+                        </ul>
+                        <p>54 MId Street Florida ,OR 27001</p>
+                        <ul>
+                            <li>Bedrooms: <span>6</span></li>
+                            <li>Bathrooms: <span>5</span></li>
+                        </ul>
+                        <ul>
+                            <li>Area: <span>450m2</span></li>
+                            <li>Floor: <span>3</span></li>
+                            <li>Parking: <span>8 spots</span></li>
+                        </ul>
+                        <button>Schedule a visit</button>
+                    </div>
+                </div>
+                <div class="hotal-box">
+                    <img src="image/property-03.jpg" class="img-pro" alt="">
+                    <div>
+                        <ul>
+                            <li class="one">Luxury Villa</li>
+                            <li class="two">$1.60.000</li>
+                        </ul>
+                        <p>26 Old Street Miami ,OR 3540</p>
+                        <ul>
+                            <li>Bedrooms: <span>5</span></li>
+                            <li>Bathrooms: <span>4</span></li>
+                        </ul>
+                        <ul>
+                            <li>Area: <span>225m2</span></li>
+                            <li>Floor: <span>3</span></li>
+                            <li>Parking: <span>10 spots</span></li>
+                        </ul>
+                        <button>Schedule a visit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="hotal-boxs">
+                <div class="hotal-box">
+                    <img src="image/property-04.jpg" class="img-pro" alt="">
+                    <div>
+                        <ul>
+                            <li class="one">Apartment</li>
+                            <li class="two">$58.500</li>
+                        </ul>
+                        <p>12 New Street Miami, OR 12650</p>
+                        <ul>
+                            <li>Bedrooms: <span>4</span></li>
+                            <li>Bathrooms: <span>3</span></li>
+                        </ul>
+                        <ul>
+                            <li>Area: <span>125m2</span></li>
+                            <li>Floor: <span>25th</span></li>
+                            <li>Parking: <span>2 cars</span></li>
+                        </ul>
+                        <button>Schedule a visit</button>
+                    </div>
+                </div>
+                <div class="hotal-box">
+                    <img src="image/property-05.jpg" class="img-pro" alt="">
+                    <div>
+                        <ul>
+                            <li class="one">Penthouse</li>
+                            <li class="two">$925.600</li>
+                        </ul>
+                        <p>34 Beach Street Miami, OR 42680</p>
+                        <ul>
+                            <li>Bedrooms: <span>4</span></li>
+                            <li>Bathrooms: <span>4</span></li>
+                        </ul>
+                        <ul>
+                            <li>Area: <span>180m2</span></li>
+                            <li>Floor: <span>38th</span></li>
+                            <li>Parking: <span>2 cars</span></li>
+                        </ul>
+                        <button>Schedule a visit</button>
+                    </div>
+                </div>
+                <div class="hotal-box">
+                    <img src="image/property-06.jpg" class="img-pro" alt="">
+                    <div>
+                        <ul>
+                            <li class="one">Modern condo</li>
+                            <li class="two">$459.000</li>
+                        </ul>
+                        <p>22 New street Portland.oR 16540</p>
+                        <ul>
+                            <li>Bedrooms: <span>3</span></li>
+                            <li>Bathrooms: <span>2</span></li>
+                        </ul>
+                        <ul>
+                            <li>Area: <span>165m2</span></li>
+                            <li>Floor: <span>326th</span></li>
+                            <li>Parking: <span>3 cars</span></li>
+                        </ul>
+                        <button>Schedule a visit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="map">
+            <h3>CONTACT US</h3>
+            <p>Get In Touch With <br>&nbsp &nbsp &nbsp Our Agents</p>
+            <div class="current-add">
+                <div>
+                    <iframe class="add"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d995402.7097843362!2d76.97147420225849!3d12.953168299633706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1707472222244!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="online-contact">
+                        <div>
+                            <img src="image/phone-icon.png" alt="">
+                            <div class="num-icon icon">
+                                <h4>010-020-0340</h4>
+                                <h6>Phone Number</h6h6>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="image/email-icon.png" alt="">
+                            <div class="gmail-icon icon">
+                                <h4>ino@hotal%star</h4>
+                                <h6>Busness Email</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fill-detail">
+                    <h4>Full Name</h4>
+                    <label for="">
+                        <input type="text" placeholder=" Your Name" class="name">
+                    </label>
+                    <h4>Email Address</h4>
+                    <label for="">
+                        <input type="email" placeholder=" Your E-mail" class="email">
+                    </label>
+                    <h4>Subject</h4>
+                    <label for="">
+                        <input type="text" placeholder="Subject" class="subject">
+                    </label>
+                    <h4>Message</h4>
+                    <label for="">
+                        <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Message"></textarea>
+                    </label>
+                    <button>Schedule a visit</button>
+                </div>
+
+            </div>
+        </div>
+        <footer>
+            <p>Hotal 5star </p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
